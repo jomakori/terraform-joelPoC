@@ -7,9 +7,10 @@
 
 ## To Run:
 1. Sync locally on workspace
-2. Run `terrraform init`
-3. Run `terrraform plan`
-4. Run `terrraform apply`
+2. `cd terraform`
+3. Run `terrraform init`
+4. Run `terrraform plan`
+5. Run `terrraform apply`
 
 
 
