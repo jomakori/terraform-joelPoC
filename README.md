@@ -5,12 +5,7 @@
 + GitHub repo token (Can be subdtituted if using another repo source)
 + Region for deployment (Will deploy for high availability by replicating resources in 2 AZs)
 
-## To Run:
-1. Sync locally on workspace
-2. `cd terraform`
-3. Run `terrraform init`
-4. Run `terrraform plan`
-5. Run `terrraform apply`
+Edit on tfvars file
 
 
 
