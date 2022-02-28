@@ -1,1 +1,1 @@
-{"Modules":[{"Key":"","Source":"","Dir":"."},{"Key":"container_definition","Source":"cloudposse/ecs-container-definition/aws","Version":"0.13.0","Dir":".terraform/modules/container_definition"}]}
+{"Modules":[{"Key":"container_definition","Source":"registry.terraform.io/cloudposse/ecs-container-definition/aws","Version":"0.13.0","Dir":".terraform/modules/container_definition"},{"Key":"","Source":"","Dir":"."}]}

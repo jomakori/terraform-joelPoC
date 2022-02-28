@@ -1,5 +1,6 @@
 terraform {
-  required_providers {
+  required_version = ">= 1.0.11"
+required_providers {
     github = {
       source  = "integrations/github"
       version = "~> 4.0"
@@ -10,18 +11,9 @@ terraform {
     }
   }
 }
-
-variable "github_token" {
-  description = "The GitHub Token to be used for the CodePipeline"
-  type        = string
+provider aws {
+  region         = var.region
 }
-
-variable "account_id" {
-  description = "id of the active account"
-  type        = string
-}
-
-variable "region" {
-  description = "region to deploy to"
-  type        = string
+locals {
+  account_id     = var.account_id
 }
